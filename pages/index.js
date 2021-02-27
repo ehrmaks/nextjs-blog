@@ -21,7 +21,11 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>[Your Self Introduction]</p>
+        <p>
+          Hi everyone, My name is Jinseok Kim.
+          I'm a middle developer.
+          Next.js is awesome!
+        </p>
       </section>
 
       {/* Add this <section> tag below the existing <section> tag */}
